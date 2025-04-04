@@ -1,0 +1,57 @@
+body {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.producto {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #777;
+}
